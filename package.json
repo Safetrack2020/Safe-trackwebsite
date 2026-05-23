@@ -3,7 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "homepage": "https://safetrack2020.github.io/Safe-trackwebsite/",
+  "homepage": "https://safetrack2020.com/",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
