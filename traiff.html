@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tariff</title>
+    <meta name="generator" content="Serif WebPlus X8">
+    <meta name="viewport" content="width=1280">
+    <link rel="stylesheet" type="text/css" href="wpscripts/wpstyles.css">
+    <style type="text/css">
+      .C-1 { line-height:81.00px;font-family:"Trebuchet MS", sans-serif;font-style:normal;font-weight:normal;color:#6a1300;background-color:transparent;text-decoration:none;font-variant:normal;font-size:64.0px;vertical-align:0; }
+      .OBJ-1 { margin:0;background:transparent url('wpimages/wp714ed750.png') no-repeat left top; }
+      .P-1 { text-align:center;line-height:1px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:700;color:#297cf2;background-color:transparent;font-variant:normal;font-size:18.0px;vertical-align:0; }
+      .C-2 { line-height:22.00px;font-family:"Tahoma", sans-serif;font-style:normal;font-weight:700;color:#297cf2;background-color:transparent;text-decoration:none;font-variant:normal;font-size:18.0px;vertical-align:0; }
+      .OBJ-2 { border:1px solid #ffffff;border-radius:6px / 6px;outline:1px solid #ffffff; }
+      .C-3 { line-height:22.00px;font-family:"Trebuchet MS", sans-serif;font-style:normal;font-weight:normal;color:#297cf2;background-color:transparent;text-decoration:none;font-variant:normal;font-size:16.0px;vertical-align:0; }
+      .OBJ-3 { border:1px solid #297cf2;border-radius:2px / 2px;background:#ffffff;font-family:Trebuchet MS;font-size:16px;color:#626262;text-decoration:none;font-style:normal;font-variant:normal;font-weight:Normal;text-align:left; }
+      .OBJ-4 { border:1px solid #297cf2;border-radius:2px / 2px;background:#ffffff;font-family:Trebuchet MS;font-size:12px;color:#626262;text-decoration:none;font-style:normal;font-variant:normal;font-weight:Normal;text-align:left; }
+      .OBJ-5 { border:1px solid #297cf2;border-radius:2px / 2px;background:#dee4fe;font-family:Trebuchet MS;font-size:12px;color:#297cf2;text-decoration:none;font-style:normal;font-variant:normal;font-weight:Bold;text-align:center; }
+      .OBJ-6,.OBJ-6:link,.OBJ-6:visited { background-image:url('wpimages/wp308267d6_06.png');background-repeat:no-repeat;background-position:0px 0px;text-decoration:none;display:block;position:absolute; }
+      .OBJ-6:hover { background-position:0px -94px; }
+      .OBJ-6:active,a:link.OBJ-6.Activated,a:link.OBJ-6.Down,a:visited.OBJ-6.Activated,a:visited.OBJ-6.Down,.OBJ-6.Activated,.OBJ-6.Down { background-position:0px -47px; }
+      .OBJ-6.Disabled,a:link.OBJ-6.Disabled,a:visited.OBJ-6.Disabled,a:hover.OBJ-6.Disabled,a:active.OBJ-6.Disabled { background-position:0px -141px; }
+      .OBJ-6:focus { outline-style:none; }
+      button.OBJ-6 { background-color:transparent;border:none 0px;padding:0;display:inline-block;cursor:pointer; }
+      button.OBJ-6:disabled { pointer-events:none; }
+      .OBJ-6.Inline { display:inline-block;position:relative;line-height:normal; }
+      .OBJ-6 span,.OBJ-6:link span,.OBJ-6:visited span { color:#ffffff;font-family:Arial,sans-serif;font-weight:bold;text-decoration:none;text-align:center;text-transform:capitalize;font-style:normal;left:15px;top:14px;width:91px;height:20px;line-height:20px;font-size:15px;display:block;position:absolute;cursor:pointer; }
+      .OBJ-6:hover span { color:#555b60; }
+      .OBJ-6:active span,a:link.OBJ-6.Activated span,a:link.OBJ-6.Down span,a:visited.OBJ-6.Activated span,a:visited.OBJ-6.Down span,.OBJ-6.Activated span,.OBJ-6.Down span { color:#555b60;left:16px; }
+      .OBJ-6.Disabled span,a:link.OBJ-6.Disabled span,a:visited.OBJ-6.Disabled span,a:hover.OBJ-6.Disabled span,a:active.OBJ-6.Disabled span { color:#555b60; }
+      .OBJ-7 { line-height:47px; }
+    </style>
+    <script type="text/javascript" src="wpscripts/jquery.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="wpscripts/jqueryui.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.stylesheet.js"></script>
+    <script type="text/javascript" src="wpscripts/datepicker.i18n.js"></script>
+    <script type="text/javascript" src="wpscripts/jquery.datepicker.style.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+      $("#form_20").validate({ onkeyup: false, showErrors: function(errorMap, errorList) { if (errorList.length) alert(errorList[0].message); }, onclick: false, rules: { 'Name': { required: true } , 'Telephone number': { required: true, number: true } , 'Email': { email: true }  }, onfocusout: false, messages: { 'Name': { required: "Name is mandatory" } , 'Telephone number': { required: "please entry your contact number", number: "Please enter a number" } , 'Email': {  }  } });
+      $("a.ActiveButton").bind({ mousedown:function(){if ( $(this).attr('disabled') === undefined ) $(this).addClass('Activated');}, mouseleave:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}, mouseup:function(){ if ( $(this).attr('disabled') === undefined ) $(this).removeClass('Activated');}});
+      });
+    </script>
+    <link rel="stylesheet" type="text/css" href="wpscripts/datepicker.css">
+  </head>
+  <body style="height:4650px;background:#ffffff;">
+    <div id="divMain" style="background:transparent;margin-left:auto;margin-right:auto;position:relative;width:1280px;height:4650px;">
+      <img alt="" src="wpimages/wpeae1faaf_06.png" style="position:absolute;left:41px;top:84px;width:440px;height:449px;">
+      <img alt="OUTSTATION TARIFF" src="wpimages/wpf2093e9a_06.png" style="position:absolute;left:104px;top:1251px;width:1046px;height:108px;">
+      <map id="map1" name="map1"><area shape="poly" coords="104,131,110,130,121,125,124,116,119,111,111,107,117,102,123,90,126,79,128,73,128,66,126,54,122,45,118,38,112,31,105,26,95,20,78,16,66,16,58,18,52,20,41,26,34,31,29,36,25,43,22,50,20,56,19,65,19,74,20,82,23,91,29,100,35,108,27,111,21,118,24,126,29,128,53,132,94,132" href="#tariff" alt=""></map>
+      <img alt="#tariff" usemap="#map1" src="wpimages/wp0a12bac6_06.png" style="position:absolute;left:596px;top:241px;width:145px;height:140px;">
+      <map id="map2" name="map2"><area shape="poly" coords="74,110,82,110,89,109,100,106,105,100,99,93,93,91,95,89,101,81,105,72,107,66,107,50,104,41,99,32,93,25,85,20,78,16,71,14,52,14,43,17,34,22,27,28,21,36,18,43,15,56,16,63,18,73,22,82,29,89,24,93,18,100,22,106,35,110,58,110,66,111" href="indica.html#INDICA" alt=""></map>
+      <img alt="#INDICA" usemap="#map2" src="wpimages/wpa827ea0a_06.png" style="position:absolute;left:608px;top:110px;width:121px;height:117px;">
+      <map id="map3" name="map3"><area shape="poly" coords="82,110,89,110,97,108,105,102,103,96,93,91,95,89,101,82,105,74,107,66,107,50,105,41,100,33,94,26,87,20,78,16,71,14,52,14,43,17,34,22,26,30,21,36,18,43,15,56,16,63,18,73,23,82,29,90,20,95,18,102,23,106,28,109,43,111,75,111" href="swift.html#SWIFT" alt=""></map>
+      <img alt="#SWIFT" usemap="#map3" src="wpimages/wp15871f24_06.png" style="position:absolute;left:710px;top:181px;width:121px;height:118px;">
+      <map id="map4" name="map4"><area shape="poly" coords="90,110,100,107,106,101,100,94,94,91,100,84,106,72,107,66,107,47,103,39,98,30,93,25,86,20,78,16,69,14,52,14,44,17,35,21,25,31,17,46,15,56,16,63,17,72,22,81,28,89,30,91,24,93,18,100,23,107,28,109,43,111,82,111" href="tempo.html#VAN-MINI" alt=""></map>
+      <img alt="#VAN-MINI" usemap="#map4" src="wpimages/wped75db59_06.png" style="position:absolute;left:495px;top:288px;width:122px;height:118px;">
+      <map id="map5" name="map5">
+        <area shape="poly" coords="90,110,100,107,106,101,100,94,94,91,100,84,106,72,107,66,107,47,103,39,98,30,93,25,86,20,78,16,69,14,52,14,44,17,35,21,25,31,17,46,15,56,16,63,17,72,22,81,28,89,30,91,24,93,18,100,23,107,28,109,43,111,82,111" href="innova.html#INNOVA" alt="">
+        <area shape="poly" coords="199,110,207,108,215,102,209,94,203,91,208,86,213,78,217,66,217,50,214,40,209,32,203,25,195,20,188,16,178,14,162,14,153,17,144,22,137,29,131,37,127,46,125,56,126,63,128,73,132,82,139,89,134,93,128,100,132,107,138,109,153,111,192,111" href="tavera.html#XYLO" alt="">
+      </map>
+      <img src="wpimages/wpdd83897c_06.png" alt="" width="231" height="118" usemap="#map5" style="position:absolute;left:551px;top:390px;width:231px;height:118px;">
+      <map id="map6" name="map6"><area shape="poly" coords="90,110,97,108,105,102,99,94,94,91,100,83,105,74,107,66,107,50,104,40,99,32,93,25,86,20,78,16,72,14,52,14,43,17,34,22,26,30,21,36,18,43,15,56,16,63,18,73,23,82,29,90,30,90,20,95,18,102,23,107,28,109,43,111,82,111" href="eeco.html#TAVERA" alt=""></map>
+      <img alt="#TAVERA" usemap="#map6" src="wpimages/wp26a2fa24_06.png" style="position:absolute;left:718px;top:287px;width:121px;height:118px;">
+      <map id="map7" name="map7"><area shape="poly" coords="90,110,97,108,105,102,99,94,94,91,100,83,106,72,107,66,107,47,103,38,98,30,93,25,86,20,78,16,72,14,52,14,43,17,34,22,26,30,21,37,17,46,15,56,16,63,18,73,23,82,29,89,30,91,24,93,18,100,23,107,28,109,43,111,82,111" href="van%20max.html#VAN-MAX" alt=""></map>
+      <img alt="#VAN-MAX" usemap="#map7" src="wpimages/wp86badf9a_06.png" style="position:absolute;left:509px;top:180px;width:121px;height:118px;">
+      <img alt="" src="wpimages/wpf82babce_06.png" style="position:absolute;left:0px;top:533px;width:1280px;height:142px;">
+      <div style="position:absolute;left:29px;top:566px;width:448px;height:71px;overflow:hidden;">
+        <p class="Body"><span class="C-1">TARIFF DETAILS</span></p>
+      </div>
+      <form name="Vehicle Booking" id="form_20" action="http://www.serifwebresources.com/form.php?siteurl=http://www.safetrack2020.com/&uid=1207df1343b59df29c0f6372c28974194f3d047e" accept-charset="UTF-8" method="post" target="_self" enctype="multipart/form-data" class="OBJ-1" style="position:absolute;left:910px;top:89px;width:297px;height:403px;">
+        <input type="hidden" name="redirect" value="http://www.safetrack2020.com/index.html">
+        <input type="hidden" name="xmlFormData" value="Y1nsdxFnnN+yA8BFTk9VKMVszzD+nkwZufKuW6u04lQcdeY9DjxPSmYXroaBwwrpInQFF7VL76NbZddB6uuithbxKeR6KR7463CjZuLNenYaSL9hjor8CIsnU63z06uOcIX/vXwkVuWvR1sxrXw5eO1vtq4iLDXzwxrfU5P6VxFrJ6bn7e/5mi+k+/EBJ8lWUc9HZuJCYWcW0Um30G4S9FyNhFgcrpVc/VfMei+8cyZOCweQlSwnUwTpv3iAjgSQxoC11msnA2TfoxFdwBhiHy0qt+MgIa4LyVubfHtgEH26mFlnBQ3GHsll8Nzq1KSCseu6IqjeX22uTZS7agFZ8y8M4HTicmxa7b2tfidTRRug0TMhzOREG7lLoRDf2aT9Ta1i2d3/N4kNeln3K7nsvCWkko01pt+8Otiv781tclutLjygITQkZ9cighq6XWN9ZWefbgsUEvLJLlDkn9a+ZAoivoMNu0YPJoY5j7Kuzc9FSpUByIsJawX7ZmXJQEgKBNd7Kv9bs4tWLms+WVdycYQQvvGc+IUP/0QnDDQbVZv7y0OYwxT4ARismtLU5WYefxcsoUXnGixHMJVMXpCIs5mVTB7qPkzNKCi3xHv3DX88bx5nEOW079UfbdIIjyBv04sAu+Af8JCV6nu6G/1eDgEOO4xlSia6FEGxTOgog8hQACfWWZys6qrthYllfBH+MkKOi/lfQCW+7h9Lqn6f9UVuo6JfrCfM9GEeumCVJJOVkSDn2eFCZ2nAmOl3m7SjwANYKdd8FzbmEG693G+KnNwOv2BY7VIbA96UhKwoosQv36tXvS13ifI/2vM/ZPXWlYk+wTlOMWA8QNA4UNKZ8k+l9H/cHJiwu3EcKL1vcw2hZkn8ORl/dZacolqjB6OiPwielQwdxx6NC0v8lMrh/tHv4U2JNmwavg8VX7pcYFgPksMhCQTnJYgTpnWcuuZ8jiP+8O2lLhEzomEcYkJAO2tl88ZUcQGvaDx4z3rUuBzdPT/k5kMA3kEcKu58g6DtncHHskv70cdMPkSCWOtEaSHpnUGdW8MN2bIDrE5kYPV1ebzaZOVF6grujQcKACDdRo+1ByZCHw5S+dqswpKXaPVJ6F5TCe3sZ/cUJUvbx/psOxUk9cQW7McjHw5nj6Q3QvlSmwhFI7QTquqFIV9ZGIbWtrIt2mcJJrf3Qs+r79I">
+        <div class="OBJ-2" style="position:absolute;left:25px;top:15px;width:246px;height:22px;overflow:hidden;">
+          <p class="Body P-1"><span class="C-2">Vehicle Booking</span></p>
+        </div>
+        <div style="position:absolute;left:26px;top:54px;width:246px;height:22px;overflow:hidden;">
+          <p class="Body"><label for="Name" class="C-3">Name *</label></p>
+        </div>
+        <input id="Name" name="Name" class="OBJ-3" maxlength="32" style="position:absolute;left:26px;top:76px;width:246px;height:22px;">
+        <div style="position:absolute;left:26px;top:116px;width:246px;height:22px;overflow:hidden;">
+          <p class="Body"><label for="Telephone_number" class="C-3">Telephone No. *</label></p>
+        </div>
+        <input id="Telephone_number" name="Telephone number" class="OBJ-3" maxlength="32" style="position:absolute;left:26px;top:138px;width:246px;height:22px;">
+        <div style="position:absolute;left:26px;top:178px;width:246px;height:22px;overflow:hidden;">
+          <p class="Body"><label for="Email" class="C-3">Email</label></p>
+        </div>
+        <input id="Email" name="Email" class="OBJ-3" maxlength="32" style="position:absolute;left:26px;top:200px;width:246px;height:22px;">
+        <div style="position:absolute;left:26px;top:240px;width:133px;height:22px;overflow:hidden;">
+          <p class="Body"><label for="Vehicle" class="C-3">Vehicle</label></p>
+        </div>
+        <select id="Vehicle" name="Vehicle" class="OBJ-4" style="position:absolute;left:26px;top:262px;width:132px;height:18px;">
+          <option value="Pls Select Vehicle">Pls&nbsp;Select&nbsp;Vehicle</option>
+          <option value="INDICA">Indica</option>
+          <option value="SWIFT">Swift</option>
+          <option value="INDIGO">Indigo</option>
+          <option value="VENTURE">Venture</option>
+          <option value="TAVERA">Tavera</option>
+          <option value="SUMO">Sumo</option>
+          <option value="XYLO">Xylo</option>
+          <option value="GRANDE">Grande</option>
+          <option value="INNOVA">Innova</option>
+          <option value="TEMPO">Tempo</option>
+          <option value="WINGER">Winger</option>
+          <option value="VAN MINI">Van&nbsp;mini</option>
+          <option value="VAN MAX">Van&nbsp;max</option>
+        </select>
+        <div style="position:absolute;left:170px;top:240px;width:103px;height:22px;overflow:hidden;">
+          <p class="Body"><label for="Type" class="C-3">Type</label></p>
+        </div>
+        <select id="Type" name="Type" class="OBJ-4" style="position:absolute;left:169px;top:262px;width:103px;height:18px;">
+          <option value="Pls Select Type">Pls&nbsp;Select&nbsp;Type</option>
+          <option value="NON A/C">Non&nbsp;A/C</option>
+          <option value="A/c">A/C</option>
+        </select>
+        <div style="position:absolute;left:26px;top:297px;width:133px;height:22px;overflow:hidden;">
+          <p class="Body"><label for="No._of_passangers" class="C-3">No. of passengers</label></p>
+        </div>
+        <select id="No._of_passangers" name="No. of passangers" class="OBJ-3" style="position:absolute;left:26px;top:319px;width:132px;height:22px;">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+        </select>
+        <div style="position:absolute;left:169px;top:297px;width:103px;height:22px;overflow:hidden;">
+          <p class="Body"><label for="Date" class="C-3">DOJ</label></p>
+        </div>
+        <input id="Date" name="Date" class="OBJ-3" type="text" value="23/05/2026" style="position:absolute;left:169px;top:319px;width:102px;height:22px;">
+        <script type="text/javascript">
+          $(function() {
+          $( "#Date" ).datepicker({ beforeShow: function(input, inst) { setDatepickerCss(input); } });
+          $( "#Date" ).datepicker( "option", $.datepicker.regional[ "en" ] );
+          $( "#Date" ).datepicker( "option", "dateFormat", "dd/mm/yy" );
+          $( "#Date" ).datepicker( "option", "prevText", "" );
+          $( "#Date" ).datepicker( "option", "nextText", "" );
+          $( "#Date" ).datepicker( "setDate", new Date() );
+          $( "#Date" ).datepicker( "option", "altField", "#DateISO8601" );
+          $( "#Date" ).datepicker( "option", "altFormat", "yy-mm-dd" );
+          });
+        </script>
+        <input type="hidden" name="DateISO8601" id="DateISO8601">
+        <input name="Submit" class="OBJ-5" type="submit" value="Send request" style="position:absolute;left:26px;top:359px;width:246px;height:22px;">
+      </form>
+      <img alt="" src="wpimages/wp16fcd744_06.png" style="position:absolute;left:5px;top:681px;width:1268px;height:526px;">
+      <img alt="" src="wpimages/wp644ddf80_05_06.jpg" style="position:absolute;left:5px;top:1369px;width:1274px;height:1585px;">
+      <img alt="" src="wpimages/wp6e5ebf1a_05_06.jpg" style="position:absolute;left:5px;top:2983px;width:1275px;height:290px;">
+      <div style="position:absolute;left:326px;top:23px;width:627px;height:49px;">
+        <a href="index.html" id="nav_36_B1" class="OBJ-6 ActiveButton OBJ-7" style="display:block;position:absolute;left:0px;top:0px;width:123px;height:47px;">
+          <span>Home</span>
+        </a>
+        <a href="about%20us.html" id="nav_36_B2" class="OBJ-6 ActiveButton OBJ-7" style="display:block;position:absolute;left:125px;top:0px;width:123px;height:47px;">
+          <span>About&nbsp;Us</span>
+        </a>
+        <a href="traiff.html" id="nav_36_B3" class="OBJ-6 ActiveButton Down OBJ-7" style="display:block;position:absolute;left:250px;top:0px;width:123px;height:47px;">
+          <span>Tariff</span>
+        </a>
+        <a href="gallery.html" id="nav_36_B4" class="OBJ-6 ActiveButton OBJ-7" style="display:block;position:absolute;left:375px;top:0px;width:123px;height:47px;">
+          <span>Gallery</span>
+        </a>
+        <a href="contactus.html" id="nav_36_B5" class="OBJ-6 ActiveButton OBJ-7" style="display:block;position:absolute;left:500px;top:0px;width:123px;height:47px;">
+          <span>Contact&nbsp;Us</span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
